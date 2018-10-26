@@ -13,7 +13,7 @@ public class Interets extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_interets);
+        setContentView(R.layout.interets);
         /*/
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -32,7 +32,7 @@ public class Interets extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
 
-                Intent myIntent = new Intent(Interets.this, ProposeActivity.class);
+                Intent myIntent = new Intent(Interets.this, ProposerActivite.class);
                 Interets.this.startActivity(myIntent);
 
             }

@@ -34,7 +34,7 @@
         </activity>
         <activity
             android:name=".Acceuil"
-            android:label="Inscription"
+            android:label="Acceuil"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -42,8 +42,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".A"
-            android:label="Inscription"
+            android:name=".AjouterEnfant"
+            android:label="ajouter Enfant"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -51,9 +51,32 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".HorizantalCalandar"
-            android:label="@string/title_activity_horizantal_calandar"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:name=".MainActivity"
+            android:label="main activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Interets"
+            android:label="centre d'interets"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProposerActivite"
+            android:label="proposer activité"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

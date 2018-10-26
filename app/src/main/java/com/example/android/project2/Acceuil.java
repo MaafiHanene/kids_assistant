@@ -54,13 +54,13 @@ public class Acceuil extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
         /* starts before 1 month from now */
-        Calendar startDate = Calendar.getInstance();
+      Calendar startDate = Calendar.getInstance();
         startDate.add(Calendar.MONTH, -1);
 
         /* ends after 1 month from now */
-        Calendar endDate = Calendar.getInstance();
+       Calendar endDate = Calendar.getInstance();
         endDate.add(Calendar.MONTH, 1);
-        HorizontalCalendar horizontalCalendar = new HorizontalCalendar.Builder(this, R.id.calandarid).range(startDate, endDate)
+      HorizontalCalendar horizontalCalendar = new HorizontalCalendar.Builder(this, R.id.calandarid).range(startDate, endDate)
                 .datesNumberOnScreen(5)
                 .build();
         horizontalCalendar.setCalendarListener(new HorizontalCalendarListener() {

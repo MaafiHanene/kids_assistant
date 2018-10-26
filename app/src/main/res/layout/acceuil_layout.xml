@@ -5,29 +5,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/acceuil_layout">
-    <android.support.design.widget.AppBarLayout
-        android:layout_height="match_parent"
-        android:layout_width="wrap_content"
-        >
 
-
-        <devs.mulham.horizontalcalendar.HorizontalCalendarView
-            android:tag="tagHZCal"
-            android:id="@+id/calandarid"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorPrimary"
-            app:textColorSelected="#FFFF"/>
-
-    </android.support.design.widget.AppBarLayout>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/activityId"
-        android:textColor="#FF0000"
-        android:text="ACTIVITY"
-        android:visibility="invisible"
-        />
 
 
 </LinearLayout>

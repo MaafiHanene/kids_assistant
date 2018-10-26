@@ -13,7 +13,7 @@ import android.view.MenuItem;
 import android.view.View.OnClickListener;
 import android.net.Uri;
 
-public class MainActivity extends AppCompatActivity {
+public class AjouterEnfant extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
 
-                Intent myIntent = new Intent(MainActivity.this, Interets.class);
-                MainActivity.this.startActivity(myIntent);
+                Intent myIntent = new Intent(AjouterEnfant.this, Interets.class);
+                AjouterEnfant.this.startActivity(myIntent);
 
             }
 
