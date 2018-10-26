@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+
+            <!--Put form controls here-->
+            <TextView
+                android:id="@+id/NomTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nom : "
+                android:layout_margin="5dp"
+                android:textSize="10pt"></TextView>
+
+            <EditText
+                android:id="@+id/NomEditTextName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Entrer le nom "
+                android:inputType="textPersonName"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--Put form controls here-->
+            <TextView
+                android:id="@+id/PrenomTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prénom : "
+                android:layout_margin="5dp"
+                android:textSize="10pt"></TextView>
+
+            <EditText
+                android:id="@+id/PrenomEditTextName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Entrer le prénom "
+                android:inputType="textPersonName"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--Put form controls here-->
+            <TextView
+                android:id="@+id/DateNaissanceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date de naissance : "
+                android:layout_margin="5dp"
+                android:textSize="10pt"></TextView>
+
+            <EditText
+                android:id="@+id/DateNaissanceEditTextName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="JJ/MM/AAAA "
+                android:inputType="date"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--Put form controls here-->
+            <TextView
+                android:id="@+id/TailleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Taille : "
+                android:layout_margin="5dp"
+                android:textSize="10pt"></TextView>
+
+            <EditText
+                android:id="@+id/TailleEditTextName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="En CM "
+                android:inputType="textPersonName"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--Put form controls here-->
+            <TextView
+                android:id="@+id/PoidsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poids : "
+                android:layout_margin="5dp"
+                android:textSize="10pt"></TextView>
+
+            <EditText
+                android:id="@+id/PoidsEditTextName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="En KG "
+                android:inputType="textPersonName"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--Put form controls here-->
+            <TextView
+                android:id="@+id/InteretsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poids : "
+                android:layout_margin="5dp"
+                android:textSize="10pt"></TextView>
+
+            <Spinner
+                android:id="@+id/Spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="En KG "
+                android:inputType="textPersonName"></Spinner>
+        </LinearLayout>
+
+            <Button
+                android:id="@+id/button_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Centres d'intérêt" />
+   </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

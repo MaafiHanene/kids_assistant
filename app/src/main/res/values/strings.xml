@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">kids Assistant</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">mot de passe</string>
+    <string name="action_sign_in">Se connecter ou inscrire</string>
+    <string name="action_sign_in_short">Se connecter</string>
+    <string name="error_invalid_email">ce mail est incorrect</string>
+    <string name="error_invalid_password">mot de passe très court</string>
+    <string name="error_incorrect_password">mot de passe incorrect</string>
+    <string name="error_field_required">Champs Obligatoire</string>
+    <string name="permission_rationale">permissions requises</string>
+    <string name="title_activity_horizantal_calandar">HorizantalCalandar</string>
+    <string name="linkForgetPassword"><a href="http://www.www.com" >Oublier mot de passe?</a></string>
+    <string name="linkSignUp"><a href="http://www.www.com" >Vous n'êtes pas encore inscrit? S'inscrire</a></string>
+    <string name="hasAccount"><a href="http://www.www.com" >Déjà un membre? Se connecter</a></string>
+</resources>
