@@ -27,7 +27,7 @@
 
             android:layout_width="wrap_content"
 
-            android:layout_height="72dp"
+            android:layout_height="50dp"
 
             android:layout_marginBottom="24dp"
 
@@ -150,10 +150,33 @@
 
         </android.support.design.widget.TextInputLayout>
 
+        <!-- Centres d'intêrets Label -->
+        <android.support.design.widget.TextInputLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="8dp"
+
+            android:layout_marginBottom="8dp">
+
+            <EditText android:id="@+id/centre_input_enfant_add"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:inputType="textPersonName"
+
+                android:hint="Centres d'intêret" />
+
+        </android.support.design.widget.TextInputLayout>
+
         <!-- Centres d'intêret Button -->
         <android.support.v7.widget.AppCompatButton
 
-            android:id="@+id/centres_btn_enfant_add"
+            android:id="@+id/ajouter_btn_enfant_add"
 
             android:layout_width="fill_parent"
 
@@ -165,7 +188,7 @@
 
             android:padding="12dp"
 
-            android:text="Centres d'intêret"/>
+            android:text="Ajouter"/>
 
 
     </LinearLayout>
